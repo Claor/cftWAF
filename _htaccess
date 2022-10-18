@@ -1,0 +1,7 @@
+RewriteEngine On
+
+DirectoryIndex index.php
+Options -indexes
+
+ErrorDocument 404 /waf.php?e=404
+ErrorDocument 403 /waf.php?e=403
